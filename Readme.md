@@ -1,4 +1,4 @@
-# @lqc/delayed-stream-upgrade
+# @jiulinzi/delayed-stream-upgrade
 
 Buffers events from a stream until you are ready to handle them.
 
@@ -7,18 +7,18 @@ This package is an actively maintained fork of [felixge/node-delayed-stream](htt
 ## Installation
 
 ```bash
-npm install @lqc/delayed-stream-upgrade
+npm install @jiulinzi/delayed-stream-upgrade
 ```
 
 To replace the original package in an app, install this package and alias it in `package.json` (npm / pnpm / Yarn):
 
 ```json
 "overrides": {
-  "delayed-stream": "npm:@lqc/delayed-stream-upgrade@^2"
+  "delayed-stream": "npm:@jiulinzi/delayed-stream-upgrade@^2"
 }
 ```
 
-(Adjust the version range as needed.) Or change direct dependencies from `delayed-stream` to `@lqc/delayed-stream-upgrade` and `require('@lqc/delayed-stream-upgrade')` instead of `require('delayed-stream')`.
+(Adjust the version range as needed.) Or change direct dependencies from `delayed-stream` to `@jiulinzi/delayed-stream-upgrade` and `require('@jiulinzi/delayed-stream-upgrade')` instead of `require('delayed-stream')`.
 
 ## Usage
 
@@ -26,7 +26,7 @@ The following example shows how to write a http echo server that delays its
 response by 1000 ms.
 
 ``` javascript
-var DelayedStream = require('@lqc/delayed-stream-upgrade');
+var DelayedStream = require('@jiulinzi/delayed-stream-upgrade');
 var http = require('http');
 
 http.createServer(function(req, res) {
