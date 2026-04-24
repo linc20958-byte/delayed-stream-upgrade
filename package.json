@@ -1,0 +1,47 @@
+{
+  "name": "@lqc/delayed-stream-upgrade",
+  "version": "2.0.0",
+  "description": "Buffers events from a stream until you are ready to handle them. (Maintained fork of delayed-stream.)",
+  "license": "MIT",
+  "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "contributors": [
+    "Mike Atkins <apeherder@gmail.com>"
+  ],
+  "keywords": [
+    "stream",
+    "buffer",
+    "delay",
+    "delayed"
+  ],
+  "homepage": "https://github.com/lqc/delayed-stream-upgrade#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqc/delayed-stream-upgrade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lqc/delayed-stream-upgrade/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./lib/delayed_stream.js",
+  "exports": {
+    ".": {
+      "require": "./lib/delayed_stream.js",
+      "import": "./lib/delayed_stream.js",
+      "default": "./lib/delayed_stream.js"
+    }
+  },
+  "files": [
+    "lib",
+    "License"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/run-all.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
