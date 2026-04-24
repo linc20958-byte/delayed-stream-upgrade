@@ -13,13 +13,13 @@
     "delay",
     "delayed"
   ],
-  "homepage": "https://github.com/lqc/delayed-stream-upgrade#readme",
+  "homepage": "https://github.com/linc20958-byte/delayed-stream-upgrade#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lqc/delayed-stream-upgrade.git"
+    "url": "git+https://github.com/linc20958-byte/delayed-stream-upgrade.git"
   },
   "bugs": {
-    "url": "https://github.com/lqc/delayed-stream-upgrade/issues"
+    "url": "https://github.com/linc20958-byte/delayed-stream-upgrade/issues"
   },
   "publishConfig": {
     "access": "public"
